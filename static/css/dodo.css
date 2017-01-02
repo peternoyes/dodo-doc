@@ -1,0 +1,16 @@
+/* background behind the logo*/
+#header {
+    background: #778899;
+    border-color: #778899;
+}
+
+#header-wrapper {
+    background: #778899;
+    text-align: center;
+    border-bottom: 4px solid #D3D3D3;
+}
+
+td a img {
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
