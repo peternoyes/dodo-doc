@@ -13,4 +13,4 @@ title = "Development"
 
 # Development
 
-Lorem ipsum
+Get started with software

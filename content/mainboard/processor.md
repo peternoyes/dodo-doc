@@ -1,5 +1,5 @@
 +++
-next = "/mainboard/io"
+next = "/mainboard/memory"
 prev = "/mainboard/power"
 weight = 2
 title = "Processor"
@@ -49,5 +49,6 @@ Note that the IRQ line also requires a 3.3k pullup resistor which is shown elsew
 | Component                | Description                                   | Image                                 |
 | ------------------------ | --------------------------------------------- | ------------------------------------- |
 | 65C02                    | Processor                                     | ![Image](/65C02.jpg?height=100px)
+| 3.3k Resistors		   | Pullups                                       | ![Image](/3.3k.jpg?height=100px)
 | 1.000mhz oscillator      | Clocks the processor at 1mhz                  | ![Image](/1mhz.jpg?height=100px)
 | DS1813                   | Integrated reset logic                        | ![Image](/DS1813.jpg?height=100px)

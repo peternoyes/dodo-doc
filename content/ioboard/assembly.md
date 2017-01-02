@@ -1,10 +1,10 @@
 +++
 date = "2017-01-01T13:28:24-08:00"
 toc = true
-next = "/next/path"
-prev = "/prev/path"
-weight = 5
-title = "Some Title"
+next = "/case"
+prev = "/ioboard/passives"
+weight = 6
+title = "Assembly"
 
 +++
 

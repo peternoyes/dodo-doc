@@ -20,6 +20,10 @@ The LT1303 has a low battery output that pulls low when a minimum voltage thresh
 
 2v * (255k / 412k) = 1.24v
 
+#### Batteries
+
+Dodo draws just under 200mA at 3v which is a lot of current to be drawing from a typical alkaline AAA battery. Much better battery life is attained with either a lithium batteries, or better yet, rechargeable batteries. 
+
 #### Circuit Diagram
 
 ![Circuit Diagram](/power.png?width=50%)

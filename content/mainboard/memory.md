@@ -1,8 +1,8 @@
 +++
 date = "2017-01-01T19:00:54-08:00"
 toc = true
-next = "/next/path"
-prev = "/prev/path"
+next = "/mainboard/io"
+prev = "/mainboard/processor"
 weight = 3
 title = "Memory"
 
@@ -16,7 +16,7 @@ Dodo uses a 32KB SRAM for system memory and a 32KB EEPROM for system firmware. B
 
 | Pin(s)      | Discription                 |
 | ----------- | --------------------------- |
-| Address     | A0 - A14 address lines. Note that the 65C02 as an additional address line because the 65C02 has 64KB total address space. A15 from the processor is connected to the [glue logic](/mainboard/gluelogic).
+| Address     | A0 - A14 address lines. Note that the 65C02 has an additional address line because the 65C02 has 64KB total address space. A15 from the processor is connected to the [glue logic](/mainboard/gluelogic).
 | Data        | D0 - D7 data bus
 | WE          | Write enable. Conneced to WR which is generated from the RW signal from the 65C02. See [glue logic](/mainboard/gluelogic).
 | OE          | Output enable (Read). Connected to RD which is also generated from the RW signal
@@ -32,3 +32,4 @@ Dodo uses a 32KB SRAM for system memory and a 32KB EEPROM for system firmware. B
 | ------------------------ | --------------------------------------------- | ------------------------------------- |
 | AT28C256                 | EEPROM                                        | ![Image](/AT28C256.jpg?height=100px)
 | AS6C62256A               | SRAM                                          | ![Image](/AS6C62256A.jpg?height=100px)
+| IC Socket                | Socket for the EEPROM                         | ![Image](/socket.jpg?height=100px)
