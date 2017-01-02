@@ -30,9 +30,9 @@ The LT1303 has a low battery output that pulls low when a minimum voltage thresh
 | ------------------------ | --------------------------------------------- | ------------------------ |
 | LT1303                   | Voltage Regulator                             | ![Image](/lt1303.jpg?height=100px)
 | 22uH Inductor            | Inductor for Regulator                        | ![Image](/inductor.jpg?height=100px)
-| 150uF Cap (Low ESR)      | Output Capactior for Regulator                |
+| 150uF Cap (Low ESR)      | Output Capactior for Regulator                | ![Image](/150uF.jpg?height=100px)
 | 100uF Cap (Low ESR)      | Input Capacitor for Regulator                 | ![Image](/100uF.jpg?height=100px)
-| Diode 1N5817             | Switching Diode                               |
+| Diode 1N5817             | Switching Diode                               | ![Image](/1N5817.jpg?height=100px)
 | 255k Resistor 1%         | Resistor #1 of voltage divider                | ![Image](/255k.jpg?height=100px)
 | 412k Resistor 1%         | Resistor #2 of voltage divider                | ![Image](/412k.jpg?height=100px)
 | 2N3906                   | PNP Transistor to drive Low Battery LED       | ![Image](/2N3906.jpg?height=100px)
@@ -40,5 +40,4 @@ The LT1303 has a low battery output that pulls low when a minimum voltage thresh
 | 1k Resistor              | Bias resistor for transistor                  | ![Image](/1k.jpg?height=100px)
 | Battery Holders          | AAA battery holder                            | ![Image](/batteryholder.jpg?height=100px)
 | Switch                   |                                               | ![Image](/switch.jpg?height=100px)
-| DS1813                   | Reset IC                                      |
 

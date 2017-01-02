@@ -1,7 +1,7 @@
 +++
 next = "/ioboard"
 prev = "/mainboard/gluelogic"
-weight = 6
+weight = 7
 title = "Passives"
 date = "2017-01-01T13:23:43-08:00"
 toc = true

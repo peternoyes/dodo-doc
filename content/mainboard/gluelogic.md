@@ -1,7 +1,7 @@
 +++
 next = "/mainboard/passives"
 prev = "/mainboard/rs232"
-weight = 5
+weight = 6
 title = "Glue Logic"
 date = "2016-12-31T20:10:05-08:00"
 toc = true

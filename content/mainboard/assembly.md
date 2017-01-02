@@ -1,6 +1,6 @@
 +++
 prev = "/prev/path"
-weight = 7
+weight = 8
 title = "Assembly"
 date = "2017-01-01T13:27:59-08:00"
 toc = true

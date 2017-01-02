@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Dodo Documentation"
-baseurl = "http://docs.dodolabs.io/"
+baseurl = "http://docs.dodolabs.io"
 theme = "hugo-theme-learn"
 [params]
   menu = [ "gettingstarted", "mainboard", "ioboard", "case", "development" ]
