@@ -8,6 +8,10 @@ toc = true
 
 +++
 
+#### Circuit Diagram
+
+![Circuit Diagram](/glue_logic.png?width=50%)
+
 #### Background
 
 A critical aspect of a 6502 based system is the layout of the address space. Glue logic is what determines the address space by enabling specific chips based upon particular addresses. For instance ROM lies in the upper 32KB of Dodo's address space, therefore any time that A15 is high, ROM should be selected. By looking at the circuit diagram, A15 and 5V are fed into a NAND gate so that the ROM select goes low when A15 is high. Chip selection uses on active low logic. 3 distinct 74 series logic chips provide the necessary glue logic to lay out the following address space.
@@ -22,10 +26,6 @@ As a more complicated example examine the 8 input NAND gate. When A8-A14 are hig
 - 0x7F20 - 0x7F2F : SSD1305 (OLED Display)
 - 0x7F30 - 0x7F7F : Reserved for future use
 - 0x8000 - 0xFFFF : ROM
-
-#### Circuit Diagram
-
-![Circuit Diagram](/glue_logic.png?width=50%)
 
 #### Components
 

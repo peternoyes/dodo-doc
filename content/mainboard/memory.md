@@ -8,6 +8,10 @@ title = "Memory"
 
 +++
 
+#### Circuit Diagram
+
+![Circuit Diagram](/memory.png?width=50%)
+
 #### Background
 
 Dodo uses a 32KB SRAM for system memory and a 32KB EEPROM for system firmware. Both chips happen to have the exact same pinout and both are connected identically, therefore only one chip is shown below in the diagram.
@@ -21,10 +25,6 @@ Dodo uses a 32KB SRAM for system memory and a 32KB EEPROM for system firmware. B
 | WE          | Write enable. Conneced to WR which is generated from the RW signal from the 65C02. See [glue logic](/mainboard/gluelogic).
 | OE          | Output enable (Read). Connected to RD which is also generated from the RW signal
 | CE          | Chip enable. From the RAM this is connected to the RAM chip select. For ROM, it is connected to the ROM chip select. See [glue logic](/mainboard/gluelogic).
-
-#### Circuit Diagram
-
-![Circuit Diagram](/memory.png?width=50%)
 
 #### Components
 

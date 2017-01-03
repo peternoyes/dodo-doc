@@ -8,6 +8,10 @@ toc = true
 
 +++
 
+#### Circuit Diagram
+
+![Circuit Diagram](/processor.png?width=50%)
+
 #### Background
 
 Dodo uses a WDC 65C02 processor which is still in production today. The original 6502 was NMOS, the 65C02 is CMOS and is more efficient. Addionally, the 65C02 fixes several issues that are found in the NMOS version. The processor Dodo uses is contained in a DIP-40 package.
@@ -38,10 +42,6 @@ Note that a number of pins are left disconnected as they are not needed for Dodo
 
 A 65C02 starts by the RESB pin being held low for at least 2 clock cycles at which time it will then read the initialization vector (FFFC) and then jmp to the read location. Reset circuits that hold the pin low for a duration can be accomplished a number of ways, for example the Commodore 64 used a 555 timer circuit. Dodo uses the DS1813 which is an integrated reset package.
 
-#### Circuit Diagram
-
-![Circuit Diagram](/processor.png?width=50%)
-
 Note that the IRQ line also requires a 3.3k pullup resistor which is shown elsewhere.
 
 #### Components
@@ -49,6 +49,6 @@ Note that the IRQ line also requires a 3.3k pullup resistor which is shown elsew
 | Component                | Description                                   | Image                                 |
 | ------------------------ | --------------------------------------------- | ------------------------------------- |
 | 65C02                    | Processor                                     | ![Image](/65C02.jpg?height=100px)
-| 3.3k Resistors		   | Pullups                                       | ![Image](/3.3k.jpg?height=100px)
+| 3.3k Resistors (2x)      | Pullups                                       | ![Image](/3.3k.jpg?height=100px)
 | 1.000mhz oscillator      | Clocks the processor at 1mhz                  | ![Image](/1mhz.jpg?height=100px)
 | DS1813                   | Integrated reset logic                        | ![Image](/DS1813.jpg?height=100px)

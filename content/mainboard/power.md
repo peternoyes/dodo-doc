@@ -8,6 +8,10 @@ weight = 1
 
 +++
 
+#### Circuit Diagram
+
+![Circuit Diagram](/power.png?width=50%)
+
 #### Boost Converter
 
 Dodo is powered by 2 AAA batteries using the LT1303 boost converter to generate 5v from the 2-3v provided by the batteries. 
@@ -24,10 +28,6 @@ The LT1303 has a low battery output that pulls low when a minimum voltage thresh
 
 Dodo draws just under 200mA at 3v which is a lot of current to be drawing from a typical alkaline AAA battery. Much better battery life is attained with either a lithium batteries, or better yet, rechargeable batteries. 
 
-#### Circuit Diagram
-
-![Circuit Diagram](/power.png?width=50%)
-
 #### Components
 
 | Component                | Description                                   | Image                    |
@@ -43,5 +43,5 @@ Dodo draws just under 200mA at 3v which is a lot of current to be drawing from a
 | 100k Resistor            | Pull up resistor for open drain LBO output    | ![Image](/100k.jpg?height=100px)
 | 1k Resistor              | Bias resistor for transistor                  | ![Image](/1k.jpg?height=100px)
 | Battery Holders          | AAA battery holder                            | ![Image](/batteryholder.jpg?height=100px)
-| Switch                   |                                               | ![Image](/switch.jpg?height=100px)
+| Switch                   | Power Switch                                  | ![Image](/switch.jpg?height=100px)
 

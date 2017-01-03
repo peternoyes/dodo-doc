@@ -8,6 +8,10 @@ title = "I/O"
 
 +++
 
+#### Circuit Diagram
+
+![Circuit Diagram](/io.png?width=50%)
+
 #### Background
 
 Dodo's I/O functionality is powered by the 65C22S peripheral chip. The 65C22S has dual timers and dual 8-bit bidirectional I/O ports. Dodo takes advantage of nearly all of this functionality. The first timer is used to generate an interrupt every 50ms to pump the game loop to keep a consistent frame rate. The 2nd timer drives a free running shift register that is connected to the speaker for generating a single voice of square wave audio. Port A is connected to the buttons and Port B is used for connecting to the game cartridge over SPI.
@@ -32,10 +36,6 @@ In the diagram below all pins on the right of the IC are connected to the 50 pin
 | CA1, CA2    | Timer pins for port A
 | PB0 - PB7   | Port B
 | CB1, CB2    | Timer pins for port B
-
-#### Circuit Diagram
-
-![Circuit Diagram](/io.png?width=50%)
 
 #### Components
 
