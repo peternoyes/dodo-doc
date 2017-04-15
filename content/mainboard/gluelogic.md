@@ -10,7 +10,7 @@ toc = true
 
 #### Circuit Diagram
 
-![Circuit Diagram](/glue_logic.png?width=50%)
+![Circuit Diagram](/main/glue_logic.png?width=50%)
 
 #### Background
 
@@ -31,8 +31,8 @@ As a more complicated example examine the 8 input NAND gate. When A8-A14 are hig
 
 | Component                | Description                                   | Image                    |
 | ------------------------ | --------------------------------------------- | ------------------------ |
-| 74HC138                  | 3-8 Decoder                                   | ![Image](/74HC138.jpg?height=100px)
-| 74HC00				   | 4 2 input NAND gates                          | ![Image](/74HC00.jpg?height=100px)
-| 74HC30                   | 8 input NAND gate                             | ![Image](/74HC30.jpg?height=100px)
+| 74HC138                  | 3-8 Decoder                                   | ![Image](/main/74HC138.jpg?height=100px)
+| 74HC00				   | 4 2 input NAND gates                          | ![Image](/main/74HC00.jpg?height=100px)
+| 74HC30                   | 8 input NAND gate                             | ![Image](/main/74HC30.jpg?height=100px)
 
 

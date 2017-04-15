@@ -10,11 +10,11 @@ title = "Memory"
 
 #### Circuit Diagram
 
-![Circuit Diagram](/memory.png?width=50%)
+![Circuit Diagram](/main/memory.png?width=50%)
 
 #### Background
 
-Dodo uses a 32KB SRAM for system memory and a 32KB EEPROM for system firmware. Both chips happen to have the exact same pinout and both are connected identically, therefore only one chip is shown below in the diagram.
+Dodo uses a 32KB SRAM for system memory and a 32KB EEPROM for system firmware. Both chips happen to have the exact same pinout and both are connected identically, therefore only one chip is shown above in the diagram.
 
 #### Pin Descriptions
 
@@ -30,6 +30,6 @@ Dodo uses a 32KB SRAM for system memory and a 32KB EEPROM for system firmware. B
 
 | Component                | Description                                   | Image                                 |
 | ------------------------ | --------------------------------------------- | ------------------------------------- |
-| AT28C256                 | EEPROM                                        | ![Image](/AT28C256.jpg?height=100px)
-| AS6C62256A               | SRAM                                          | ![Image](/AS6C62256A.jpg?height=100px)
-| IC Socket                | Socket for the EEPROM                         | ![Image](/socket.jpg?height=100px)
+| AT28C256                 | EEPROM                                        | ![Image](/main/AT28C256.jpg?height=100px)
+| AS6C62256A               | SRAM                                          | ![Image](/main/AS6C62256A.jpg?height=100px)
+| IC Socket                | Socket for the EEPROM                         | ![Image](/main/socket.jpg?height=100px)

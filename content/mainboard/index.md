@@ -13,6 +13,6 @@ title = "Main Board"
 
 # Main Board
 
-![Complete](/main/complete.jpg?width=50%)
+![Complete](/main/assembly/complete.jpg?width=50%)
 
 In the following pages you will be introduced to the sub systems of Dodo's main board with a listing of all the components involved, and finally step by step instructions on how to assemble the PCB.

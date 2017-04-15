@@ -10,7 +10,7 @@ weight = 1
 
 #### Circuit Diagram
 
-![Circuit Diagram](/power.png?width=50%)
+![Circuit Diagram](/main/power.png?width=50%)
 
 #### Boost Converter
 
@@ -32,16 +32,16 @@ Dodo draws just under 200mA at 3v which is a lot of current to be drawing from a
 
 | Component                | Description                                   | Image                    |
 | ------------------------ | --------------------------------------------- | ------------------------ |
-| LT1303                   | Voltage Regulator                             | ![Image](/lt1303.jpg?height=100px)
-| 22uH Inductor            | Inductor for Regulator                        | ![Image](/inductor.jpg?height=100px)
-| 150uF Cap (Low ESR)      | Output Capactior for Regulator                | ![Image](/150uF.jpg?height=100px)
-| 100uF Cap (Low ESR)      | Input Capacitor for Regulator                 | ![Image](/100uF.jpg?height=100px)
-| Diode 1N5817             | Switching Diode                               | ![Image](/1N5817.jpg?height=100px)
-| 255k Resistor 1%         | Resistor #1 of voltage divider                | ![Image](/255k.jpg?height=100px)
-| 412k Resistor 1%         | Resistor #2 of voltage divider                | ![Image](/412k.jpg?height=100px)
-| 2N3906                   | PNP Transistor to drive Low Battery LED       | ![Image](/2N3906.jpg?height=100px)
-| 100k Resistor            | Pull up resistor for open drain LBO output    | ![Image](/100k.jpg?height=100px)
-| 1k Resistor              | Bias resistor for transistor                  | ![Image](/1k.jpg?height=100px)
-| Battery Holders          | AAA battery holder                            | ![Image](/batteryholder.jpg?height=100px)
-| Switch                   | Power Switch                                  | ![Image](/switch.jpg?height=100px)
+| LT1303                   | Voltage Regulator                             | ![Image](/main/lt1303.jpg?height=100px)
+| 22uH Inductor            | Inductor for Regulator                        | ![Image](/main/inductor.jpg?height=100px)
+| 150uF Cap (Low ESR)      | Output Capactior for Regulator                | ![Image](/main/150uF.jpg?height=100px)
+| 100uF Cap (Low ESR)      | Input Capacitor for Regulator                 | ![Image](/main/100uF.jpg?height=100px)
+| Diode 1N5817             | Switching Diode                               | ![Image](/main/1N5817.jpg?height=100px)
+| 255k Resistor 1%         | Resistor #1 of voltage divider                | ![Image](/main/255k.jpg?height=100px)
+| 412k Resistor 1%         | Resistor #2 of voltage divider                | ![Image](/main/412k.jpg?height=100px)
+| 2N3906                   | PNP Transistor to drive Low Battery LED       | ![Image](/main/2N3906.jpg?height=100px)
+| 100k Resistor            | Pull up resistor for open drain LBO output    | ![Image](/main/100k.jpg?height=100px)
+| 1k Resistor              | Bias resistor for transistor                  | ![Image](/main/1k.jpg?height=100px)
+| Battery Holders          | AAA battery holder                            | ![Image](/main/batteryholder.jpg?height=100px)
+| Switch                   | Power Switch                                  | ![Image](/main/switch.jpg?height=100px)
 

@@ -10,7 +10,7 @@ title = "I/O"
 
 #### Circuit Diagram
 
-![Circuit Diagram](/io.png?width=50%)
+![Circuit Diagram](/main/io.png?width=50%)
 
 #### Background
 
@@ -18,7 +18,7 @@ Dodo's I/O functionality is powered by the 65C22S peripheral chip. The 65C22S ha
 
 Traditonally IRQ lines on the 6502 family of chips have been open drain outputs, which means that they all can be tied together. The 65C22S breaks this tradition, and the expectation is that the IRQ lines should be fed into an AND gate. In order to avoid adding another DIP chip to Dodo just for a single AND gate, a shottky diode is used as a gate.
 
-In the diagram below all pins on the right of the IC are connected to the 50 pin header that goes to the I/O board
+In the diagram below all pins on the right of the IC are connected to the 50 pin header that goes to the I/O board.
 
 #### Pin Descriptions
 
@@ -41,7 +41,7 @@ In the diagram below all pins on the right of the IC are connected to the 50 pin
 
 | Component                | Description                                   | Image                    |
 | ------------------------ | --------------------------------------------- | ------------------------ |
-| 65C22S                   | Peripheral Chip                               | ![Image](/65C22S.jpg?height=100px)
-| 3.3k Resistor			   | IRQ Pullup                                    | ![Image](/3.3k.jpg?height=100px)
-| Diode 1N5817			   | Substitute for AND gate                       | ![Image](/1N5817.jpg?height=100px)
-| 50 pin Male Header       | Male Header to connect to I/O board           | ![Image](/header_male.jpg?height=100px)
+| 65C22S                   | Peripheral Chip                               | ![Image](/main/65C22S.jpg?height=100px)
+| 3.3k Resistor			   | IRQ Pullup                                    | ![Image](/main/3.3k.jpg?height=100px)
+| Diode 1N5817			   | Substitute for AND gate                       | ![Image](/main/1N5817.jpg?height=100px)
+| 50 pin Male Header       | Male Header to connect to I/O board           | ![Image](/main/header_male.jpg?height=100px)

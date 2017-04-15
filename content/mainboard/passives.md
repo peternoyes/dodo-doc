@@ -16,4 +16,4 @@ A number of passive components have been listed on the previous pages including 
 
 | Component                | Description                                   | Image                    |
 | ------------------------ | --------------------------------------------- | ------------------------ |
-| 0.01uF Capacitors        | Bypass capactiors                             | ![Image](/0_01uF.jpg?height=100px)
+| 0.01uF Capacitors        | Bypass capactiors                             | ![Image](/main/0_01uF.jpg?height=100px)

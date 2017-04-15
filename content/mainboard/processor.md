@@ -10,7 +10,7 @@ toc = true
 
 #### Circuit Diagram
 
-![Circuit Diagram](/processor.png?width=50%)
+![Circuit Diagram](/main/processor.png?width=50%)
 
 #### Background
 
@@ -25,7 +25,7 @@ Note that a number of pins are left disconnected as they are not needed for Dodo
 | Address     | 16 Address lines (A0 - A15) designate the memory location that the processor is reading or writing.
 | Data        | 8 Data Lines (D0 - D7) form the data bus
 | BE          | Bus Enable. Unused by Dodo. Allows external circuitry to access bus
-| IRQ         | Interrupt Request (Used by 65C02 and 65C51)
+| IRQ         | Interrupt Request (Used by 65C22 and 65C51)
 | NMIB        | Non-Maskable Interrupt. Unused by Dodo
 | MLB         | Memory Lock. Unused by Dodo. Used by multiprocessor systems to wait for read-modify-write instructions to complete.
 | PHI2        | Clock Input, connected to 1mhz oscillator
@@ -48,7 +48,7 @@ Note that the IRQ line also requires a 3.3k pullup resistor which is shown elsew
 
 | Component                | Description                                   | Image                                 |
 | ------------------------ | --------------------------------------------- | ------------------------------------- |
-| 65C02                    | Processor                                     | ![Image](/65C02.jpg?height=100px)
-| 3.3k Resistors (2x)      | Pullups                                       | ![Image](/3.3k.jpg?height=100px)
-| 1.000mhz oscillator      | Clocks the processor at 1mhz                  | ![Image](/1mhz.jpg?height=100px)
-| DS1813                   | Integrated reset logic                        | ![Image](/DS1813.jpg?height=100px)
+| 65C02                    | Processor                                     | ![Image](/main/65C02.jpg?height=100px)
+| 3.3k Resistors (2x)      | Pullups                                       | ![Image](/main/3.3k.jpg?height=100px)
+| 1.000mhz oscillator      | Clocks the processor at 1mhz                  | ![Image](/main/1mhz.jpg?height=100px)
+| DS1813                   | Integrated reset logic                        | ![Image](/main/DS1813.jpg?height=100px)
