@@ -194,15 +194,11 @@ The 412k resistor is: YELLOW PURPLE RED ORANGE
 
 #### 100k
 
-The 100k resistor is: BROWN BLACK BLACK ORANGE
-
-![100k](/main/assembly/100k.jpg?width=50%)
+The 100k resistor is: BROWN BLACK YELLOW
 
 #### 1k
 
 The 1k resistor is: BROWN BLACK RED
-
-??? missing picture
 
 #### 3.3k
 

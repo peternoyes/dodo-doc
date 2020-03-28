@@ -42,11 +42,28 @@ Every time unique game is compiled, a URL is generated that can be copied and pa
 
 Flashing from the browser requires the following:
 
-- Computer running Google Chrome, even a Chromebook!
+- Either a Chromebook or the [Dodo CLI](https://github.com/peternoyes/gododo)
 - USB to Serial cable such as [this one](https://www.amazon.com/gp/product/B00DCJRD2Y/ref=od_aui_detailpages01?ie=UTF8&psc=1)
+
+#### Chromebook
+
+The following is required when using a Chromebook
+
 - [Dodo Flashing Utility](https://chrome.google.com/webstore/detail/dodo-flash-utility/bckholjcbphjhdfgbejkjflcafdgbdkb)
 
 With the App installed the Flash button will be available in the Navigation bar. Click flash and then pick the correct COM port. On a Mac with the above serial cable, /dev/tty.usbserial-A6040I72 is the correct COM port. Finally, be sure Dodo is turned plugged in and waiting on the splash screen. Clicking Start will transfer the current game to the cartridge. (The video on the App page is slightly outdated).
+
+#### Dodo CLI
+
+Once your game is developed use the Download button for fram.bin and save the file locally where it can be accessed from the terminal.
+
+To use the CLI, follow the instructions [here](https://github.com/peternoyes/gododo) to install Go and the CLI. The CLI can be run from the terminal using:
+
+```gododo -f```
+
+Be sure to run the gododo command from the same folder where fram.bin is located.
+
+You will then be prompted for the serial port and whether to flash a game or the firmware. Select G for Game to flash fram.bin to the Dodo!
 
 #### Known Quircks
 
